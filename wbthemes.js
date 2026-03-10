@@ -1,4 +1,3 @@
-/* WBThemes Shield Pro | wbthemes.in | Unauthorized use prohibited */
 !function(_0xW,_0xD,_0xS,_0xT){
 'use strict';
 
