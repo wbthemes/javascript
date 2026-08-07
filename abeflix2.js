@@ -4331,15 +4331,6 @@
         }
       }
     }
-    let vLSHttpsagfwyfwsnqnklgc = "https://agfwyfwsnqnklgcgemnw.supabase.co";
-    let vLSEyJhbGciOiJIUzI1NiIs = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFnZnd5ZndzbnFua2xnY2dlbW53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyMTQ3MTQsImV4cCI6MjA3Mjc5MDcxNH0.NBWiC0YzG8zDhijQ17j49xVXUyLJYXlMJKJkfFJg5yg";
-    if (typeof supabase !== "undefined" && vLSHttpsagfwyfwsnqnklgc.startsWith("http")) {
-      let v614 = supabase.createClient(vLSHttpsagfwyfwsnqnklgc, vLSEyJhbGciOiJIUzI1NiIs);
-      let vF63 = () => {
-        let v615 = document.getElementById("post-review-data");
-        if (!v615) {
-          return;
-        }
         if (!document.getElementById("rating-feedback-popup")) {
           let v616 = document.createElement("div");
           v616.id = "rating-feedback-popup";
