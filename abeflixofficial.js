@@ -4512,6 +4512,19 @@
           label: "Angry",
           icon: "😤"
         }];
+        let v646 = localStorage.getItem("supabase_client_id");
+        if (!v646) {
+          v646 = self.crypto.randomUUID();
+          localStorage.setItem("supabase_client_id", v646);
+        }
+        let vO153 = {};
+        let v647 = null;
+        let vF71 = (p310, p311) => {
+          v643.innerHTML = vA13.map(p312 => {
+            let v648 = p310?.[p312.type] || 0;
+            return "<button class=\"reaction-btn " + (p311 === p312.type ? "selected" : "") + "\" data-reaction=\"" + p312.type + "\"><div class=\"reaction-icon-wrapper\"><span class=\"reaction-icon\">" + p312.icon + "</span><span class=\"reaction-count\">" + (v648 > 0 ? v648 : "") + "</span></div><span class=\"reaction-label\">" + p312.label + "</span></button>";
+          }).join("");
+        };
         let vF72 = async () => {
           try {
             let [v649, v650] = await Promise.all([v614.from("reaction_summaries").select("counts").eq("post_id", v644).single(), v614.from("reactions").select("reaction_type").eq("post_id", v644).eq("client_id", v646).single()]);
