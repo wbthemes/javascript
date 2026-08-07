@@ -5693,56 +5693,6 @@
       v825.addEventListener("click", vF97);
       v824.addEventListener("click", vF97);
     }
-  });
-    let v831 = !1;
-    document.addEventListener("fullscreenchange", () => {
-      v831 = !!document.fullscreenElement;
-    });
-    let vF100 = () => {
-      if (!v830 || v831) {
-        return;
-      }
-      let v832 = window.outerWidth - window.innerWidth;
-      let v833 = window.outerHeight - window.innerHeight;
-      if (v832 > vLN160 || v833 > vLN160) {
-        vF99();
-      }
-    };
-    window.addEventListener("resize", vF100);
-    setInterval(vF100, 500);
-    setInterval(() => {
-      if (!v830) {
-        return;
-      }
-      let v834 = new Date().getTime();
-      debugger;
-      if (new Date().getTime() - v834 > 100) {
-        vF99();
-      }
-    }, 1000);
-    document.addEventListener("contextmenu", p388 => {
-      if (v830) {
-        p388.preventDefault();
-      }
-    });
-    document.addEventListener("keydown", p389 => {
-      if (v830) {
-        if (p389.key === "F12" || p389.keyCode === 123) {
-          p389.preventDefault();
-        }
-        if (p389.ctrlKey && p389.shiftKey && (p389.key === "I" || p389.keyCode === 73)) {
-          p389.preventDefault();
-        }
-        if (p389.ctrlKey && p389.shiftKey && (p389.key === "J" || p389.keyCode === 74)) {
-          p389.preventDefault();
-        }
-        if (p389.ctrlKey && p389.shiftKey && (p389.key === "C" || p389.keyCode === 67)) {
-          p389.preventDefault();
-        }
-        if (p389.ctrlKey && (p389.key === "U" || p389.keyCode === 85)) {
-          p389.preventDefault();
-        }
-      }
     });
   })();
 })();
