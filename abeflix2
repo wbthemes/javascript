@@ -5694,22 +5694,6 @@
       v824.addEventListener("click", vF97);
     }
   });
-  (function () {
-    let vLSAbeflix = "Abeflix";
-    let vLSHttpspvefdmvjveyoelt = "https://pvefdmvjveyoeltewmli.supabase.co";
-    let vLSEyJhbGciOiJIUzI1NiIs2 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB2ZWZkbXZqdmV5b2VsdGV3bWxpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU4NDQxNDgsImV4cCI6MjA3MTQyMDE0OH0.RC4SNhUgpaNY0mIxjop4bdJeTVyAGKLYkXFTCNROCDw";
-    let vLSHttpsabefilmofficial = "https://abefilmofficialzone.blogspot.com/p/registration.html";
-    let vVLSHttpsabefilmofficial = vLSHttpsabefilmofficial;
-    let vLN160 = 160;
-    let v829 = !1;
-    let v830 = localStorage.getItem("protectionEnabled") !== "false";
-    let vF98 = () => localStorage.setItem("protectionEnabled", v830);
-    let vF99 = () => {
-      if (!!v830 && !v829) {
-        v829 = true;
-        window.location.replace(vVLSHttpsabefilmofficial);
-      }
-    };
     let v831 = !1;
     document.addEventListener("fullscreenchange", () => {
       v831 = !!document.fullscreenElement;
