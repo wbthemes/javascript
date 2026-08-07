@@ -5684,7 +5684,6 @@
       v825.addEventListener("click", vF97);
       v824.addEventListener("click", vF97);
     }
-      f63();
     });
   })();
 })();
