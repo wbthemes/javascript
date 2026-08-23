@@ -1,28 +1,4 @@
 /**
- * AbeFilm Cinema Theme - Combined JavaScript (COMPLETE)
- * =====================================================
- * Includes:
- *   - Owl Carousel v2.3.4
- *   - Sidebar, Skeleton, Popular Posts, Comments
- *   - AbeFlix History, Slider, ColorSync, SafePrune
- *   - ATW Mask, Progress Bar
- *   - Network Detection (Auto-Dismiss on reconnect)
- *   - Main Layout (Search, QA, Watchlist, Account)
- *   - Anti-DevTool
- *
- * GitHub Setup:
- *   1. Upload this file to GitHub (Public repo)
- *   2. Your CDN link:
- *      https://cdn.jsdelivr.net/gh/USERNAME/REPO@main/abefilm-combined.js
- *   3. In theme, replace YOUR_USERNAME/YOUR_REPO with your details
- * =====================================================
- */
-
-/* ============================================================ */
-/* // Owl Carousel v2.3.4 (jQuery Plugin)              */
-/* ============================================================ */
-
-/**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
